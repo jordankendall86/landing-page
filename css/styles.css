@@ -1,0 +1,20 @@
+.hero-img-default {
+    width:600px;
+    height:200px;
+    background-color: gray;
+    align-content: center;
+    text-align: center;
+}
+
+.hero-img {
+    display: flex;
+}
+
+.info-img {
+    width:100px;
+    height:100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+}
