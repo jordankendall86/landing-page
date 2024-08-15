@@ -1,3 +1,11 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
 .hero-img-default {
     width:600px;
     height:200px;
@@ -13,8 +21,77 @@
 .info-img {
     width:100px;
     height:100px;
-    border: 2px solid blue;
+    border: 3px solid #3882F6;
     border-radius: 15px;
     align-content: center;
     text-align: center;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtitle,
+.header-link a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-menu {
+    list-style: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-button,
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    font-weight: bold;
+}
+
+.cta-box {
+    background-color: #3882F6;
+}
+
+.footer-item {
+    color: #F9FAF8;
 }
